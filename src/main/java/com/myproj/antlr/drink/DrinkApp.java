@@ -8,10 +8,10 @@ import com.myproj.antlr.drink.generated.DrinkLexer;
 import com.myproj.antlr.drink.generated.DrinkParser;
 import com.myproj.antlr.drink.generated.DrinkParser.DrinkSentenceContext;
 
-public class App {
+public class DrinkApp {
 
 	public static void main(String[] args) {
-		new App().printDrink("a cup of milk in India");
+		new DrinkApp().printDrink("a cup of tea in India");
 	}
 
 	private void printDrink(String drinkSentence) {
